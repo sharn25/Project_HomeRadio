@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:keepScreenOn="true"
+
+    android:id="@+id/main_bg">
+
+    <ImageView
+        android:id="@+id/activity_bg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+<Button
+
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Play"
+    android:background="#00ffffff"
+    android:id="@+id/mplay"
+    android:layout_centerVertical="true"
+   />
+<!--
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_shadow"
+
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="34dp"
+        android:layout_marginTop="34dp"
+        android:layout_marginStart="34dp"
+        android:id="@+id/imageView" />
+    <ImageView
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:background="@drawable/air1_1"
+        android:scaleType="fitXY"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="39dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="35dp"
+        android:id="@+id/pcoveriv" />
+--><!--
+    <Button
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:id="@+id/btn_cover"
+
+        android:drawableTop="@drawable/air1_1"
+        android:background="@drawable/shape_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="39dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="35dp" />
+        -->
+    <com.sb.android.homeradio.MaterialImageView
+        android:id="@+id/customcover"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="39dp"
+
+        android:paddingBottom="15dp"
+        android:paddingTop="17dp"
+        app:radius_size="1"
+
+
+        />
+    <ProgressBar
+        android:id="@+id/pprogressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleLarge"
+
+        android:layout_marginLeft="92dp"
+        android:layout_marginTop="100dp"
+        android:visibility="gone"/>
+   <!-- <android.support.v7.widget.CardView
+        android:layout_width="175dp"
+        android:layout_height="175dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="39dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginStart="35dp"
+        app:cardCornerRadius="14dp"
+        android:elevation="10dp"
+        >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/air1_1"
+            android:scaleType="centerCrop"
+
+
+            android:id="@+id/pcoveriv" />
+    </android.support.v7.widget.CardView>-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Air 1"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+
+        android:id="@+id/ptitletv"
+   android:layout_marginTop="180dp"
+        android:layout_marginLeft="230dp"/>
+    <TextView
+        android:id="@+id/pdesctv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="United States"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:layout_below="@+id/ptitletv"
+        android:layout_marginLeft="230dp"
+        />
+
+</RelativeLayout>

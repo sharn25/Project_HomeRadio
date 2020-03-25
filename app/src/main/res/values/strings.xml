@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">Home Radio</string>
+  <string name="music_title">RADIO STATIONS</string>
+  <string name="player_title">Player</string>
+</resources>

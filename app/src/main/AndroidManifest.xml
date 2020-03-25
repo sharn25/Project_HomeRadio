@@ -1,0 +1,25 @@
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sb.android.homeradio">
+    <uses-permission android:name="android.permission.INTERNET"/>
+  <application
+      android:label="@string/app_name">
+    <activity
+        android:name="com.sb.android.homeradio.MainActivity"
+        android:label="@string/app_name"
+        android:screenOrientation="landscape"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <activity
+        android:name="com.sb.android.homeradio.PlayerActivity"
+        android:label="@string/player_title"
+        android:screenOrientation="landscape"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+
+    </activity>
+  </application>
+</manifest>
